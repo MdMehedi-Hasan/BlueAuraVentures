@@ -3,7 +3,8 @@ import image2 from '../../assets/Others/startup.jpg'
 
 export default function details() {
     return (
-        <div>
+        <div className='pt-10 pb-20'>
+            <h1 className='font-bold text-4xl text-[#0096c7] text-center mb-8'>Our Believes</h1>
             <ul className='max-w-5xl mx-auto'>
                 <li className='flex items-center gap-8 bg-gray-100 rounded'>
                     <img src={image1} alt="" className='w-96 rounded-l'/>

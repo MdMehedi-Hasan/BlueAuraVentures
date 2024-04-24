@@ -6,7 +6,7 @@ import pillar4 from '../../assets/pillars/fund.png'
 export default function Pillars() {
     return (
         <div className='pt-20 pb-28'>
-            <h1 className='text-center font-bold text-4xl text-[#0096c7] mb-3'>Key Pillars</h1>
+            <h1 className='text-center font-bold text-4xl text-[#0096c7] mb-3' id="about">Key Pillars</h1>
             <p className='text-center mb-10 text-gray-600'>These are the key pillars that define our investment ethos and approach</p>
             <ul className='flex justify-center gap-10'>
                 <li className='flex flex-col items-center'>
