@@ -7,13 +7,13 @@ export default function details() {
             <ul className='max-w-5xl mx-auto'>
                 <li className='flex items-center gap-8 bg-gray-100 rounded'>
                     <img src={image1} alt="" className='w-96 rounded-l'/>
-                    <p className='text-xl text-sky-500 pr-5'> We seek to invest in startups addressing local problems head on, beyond the MVP
+                    <p className='text-xl text-[#0096c7] pr-5'> We seek to invest in startups addressing local problems head on, beyond the MVP
                         stage with clear product-market fit, traction and path to scalability.
                     </p>
                 </li>
                 <li className='flex items-center gap-8 bg-gray-100 rounded mt-10'>
                     <img src={image2} alt="" className='w-96 rounded-l'/>
-                    <p className='text-xl text-sky-500 pr-5'>The macro and micro matter. As such, we seek to invest in startups that can identify
+                    <p className='text-xl text-[#0096c7] pr-5'>The macro and micro matter. As such, we seek to invest in startups that can identify
                         opportunities led by macrotrends and digitization, while actively exploiting local
                         business opportunities with a focus on growth.
                     </p>
