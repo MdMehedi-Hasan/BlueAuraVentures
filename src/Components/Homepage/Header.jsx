@@ -36,7 +36,7 @@ export default function Header() {
                             </ul>
                         </nav>
                     </div>
-                    <p className='w-10/12 sm:w-8/12 mx-auto text-center font-bold text-2xl text-gray-50 flex-0 pt-24 sm:pt-36'>BlueAuraVentures invests in growth-stage,
+                    <p className='w-10/12 sm:w-8/12 max-w-5xl mx-auto text-center font-bold text-2xl text-gray-50 flex-0 pt-24 sm:pt-36'>BlueAuraVentures invests in growth-stage,
                         technology-focused founders via direct investments
                         and fund investments backed by limited partners
                         (LPs) from around the world
