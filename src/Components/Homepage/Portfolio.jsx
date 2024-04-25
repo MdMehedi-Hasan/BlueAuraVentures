@@ -30,8 +30,8 @@ export default function Portfolio() {
         { company: 'Zantrik', image: p14 }
     ]
     return (
-        <div className='mb-20'>
-            <h1 className='text-center mt-20 font-bold text-4xl text-[#0096c7] mb-3' id="portfolio">Portfolio</h1>
+        <div className='mb-20 px-3 md:px-0'>
+            <h1 className='text-center mt-20 font-bold text-xl sm:text-2xl md:text-4xl text-[#0096c7] mb-3' id="portfolio">Portfolio</h1>
             <p className='text-center mb-8 text-gray-600'>Prominent brands in which we have made investments</p>
             <div className='flex flex-wrap gap-10 justify-center items-center max-w-2xl mx-auto'>{/* grid grid-cols-5 */}
                 {images?.map((image, index) => <img key={index} src={image?.image} className='w-24'/>)}

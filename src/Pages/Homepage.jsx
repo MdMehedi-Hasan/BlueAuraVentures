@@ -8,9 +8,9 @@ export default function Homepage() {
     return (
         <div>
             {/* <Header />
-            <Pillars/>
+            <Pillars/> */}
             <Details/>
-            <Portfolio /> */}
+            <Portfolio />
             <Footer/>
         </div>
     )
