@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import headerImg from '../../assets/mountain.jpg'
+import './CSS/Header.css'
 export default function Header() {
     const [fixedNav,setFixedNav] = useState(false)
     const bgStyle = {
@@ -27,11 +28,11 @@ export default function Header() {
                     <div className={`translate-y-0 duration-300 ${fixedNav === null && '-translate-y-10'} ${fixedNav && 'fixed top-0 w-full bg-[#0096c7e3]'}`}>{/* className='fixed top-0 w-full bg-[#0096c7]' */}
                         <nav className='flex items-center justify-between max-w-5xl mx-auto py-3'>
                             {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTH92jJHk_n3GSKPf4UvHEp776ncUnrqCx4dK6_tIU3A&s" alt="logo" className='w-16 rounded-full' /> */}
-                            <h1 className={`leading-none text-2xl ${fixedNav && 'text-white'}`}><span className={`${fixedNav ? 'text-white' : 'text-sky-600'} font-bold`}>BlueAura</span><br /><span>Ventures</span></h1>
+                            <h1 className={`leading-none text-2xl ${fixedNav && 'text-white'}`}><span className={`${fixedNav ? 'text-white' : 'text-sky-600'} font-bold`}>BlueAura</span><br /><span className='gruppo-regular'>Ventures</span></h1>
                             <ul className='text-white flex items-center gap-5 font-semibold'>
-                                <li className='border-b-2 px-4 py-1'><a href="#home">Home</a></li>
-                                <li className='border-b-2 px-4 py-1'><a href="#about">About</a></li>
-                                <li className='border-b-2 px-4 py-1'><a href="#portfolio">Portfolio</a></li>
+                                <li className='border-b-2 border-white px-4 py-1'><a href="#home">Home</a></li>
+                                <li className='border-b-2 border-white px-4 py-1'><a href="#about">About</a></li>
+                                <li className='border-b-2 border-white px-4 py-1'><a href="#portfolio">Portfolio</a></li>
                             </ul>
                         </nav>
                     </div>
