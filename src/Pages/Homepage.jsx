@@ -7,8 +7,8 @@ import Pillars from "../Components/Homepage/Pillars";
 export default function Homepage() {
     return (
         <div>
-            {/* <Header />
-            <Pillars/> */}
+            <Header />
+            <Pillars/>
             <Details/>
             <Portfolio />
             <Footer/>

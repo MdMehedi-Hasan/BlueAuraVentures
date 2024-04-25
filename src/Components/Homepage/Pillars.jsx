@@ -5,10 +5,10 @@ import pillar4 from '../../assets/pillars/fund.png'
 
 export default function Pillars() {
     return (
-        <div className='pt-20 pb-28'>
-            <h1 className='text-center font-bold text-4xl text-[#0096c7] mb-3' id="about">Key Pillars</h1>
+        <div className='pt-20 pb-28 px-3 md:px-0'>
+            <h1 className='text-center font-bold text-xl sm:text-2xl md:text-4xl text-[#0096c7] mb-3' id="about">Key Pillars</h1>
             <p className='text-center mb-10 text-gray-600'>These are the key pillars that define our investment ethos and approach</p>
-            <ul className='flex justify-center gap-10'>
+            <ul className='flex flex-wrap justify-center gap-10'>
                 <li className='flex flex-col items-center'>
                     <div className='bg-[#0096c7] rounded-full p-6 w-fit mb-2'>
                         <img src={pillar1} alt="" className='w-20' />
