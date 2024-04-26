@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import headerImg from '../../assets/mountain.jpg'
+import headerImg from '../../assets/mountain.webp'
 import './CSS/Header.css'
 export default function Header() {
     const [fixedNav,setFixedNav] = useState(false)

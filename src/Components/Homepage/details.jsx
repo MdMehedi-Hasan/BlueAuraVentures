@@ -1,5 +1,5 @@
-import image1 from '../../assets/Others/invest.jpg'
-import image2 from '../../assets/Others/startup.jpg'
+import image1 from '../../assets/Others/invest.webp'
+import image2 from '../../assets/Others/startup.webp'
 
 export default function details() {
     return (

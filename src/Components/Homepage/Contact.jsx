@@ -1,4 +1,4 @@
-import contactImg from '../../assets/Others/contact.jpg'
+import contactImg from '../../assets/Others/contact.webp'
 export default function Contact() {
     return (
         <div className='max-w-5xl grid grid-cols-6 items-center mx-auto gap-16 my-36 px-3 md:px-5 lg:px-0'>
